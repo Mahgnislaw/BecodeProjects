@@ -5,7 +5,7 @@ In this repository you can find all the projects done for the BeCode Cybersecuri
 ## 1.Becode Basics
 ### 1.1 Network
 - [Build simple network](https://github.com/Mahgnislaw/BecodeProjects/tree/main/01_Network/00-Build_simple_network)
-		- Instruction
+	- Instruction
 		- Readme
 		- Project
 
