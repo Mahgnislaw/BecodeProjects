@@ -16,8 +16,8 @@ _In this repository you can find all the projects done for the 7month  BeCode Cy
 	- Project
 
 ### 2.1 Linux
-- Basic Commands
-- CTF 
-- Privilege escalation
+	- Basic Commands
+	- CTF 
+	- Privilege escalation
 
 	
