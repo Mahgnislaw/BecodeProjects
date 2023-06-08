@@ -5,18 +5,18 @@ _In this repository you can find all the projects done for the 7month  BeCode Cy
 ## 1.Becode Basics
 
 ### 1.1 Network
-- [Build simple network](https://github.com/Mahgnislaw/BecodeProjects/tree/main/01_Network/00-Build_simple_network)
+- [Build simple network](https://github.com/Mahgnislaw/BecodeProjects/tree/main/1_Becode%20Basics/1_1Network/01_Builde-simple-network)
 	- Instruction
 	- Readme
 	- Project
 
-- [Establish a network plan](https://github.com/Mahgnislaw/BecodeProjects/tree/main/01_Network/01-Establish_a_network_plan)
+- [Establish a network plan](https://github.com/Mahgnislaw/BecodeProjects/tree/main/1_Becode%20Basics/1_1Network/02_Establish-a-simple-network)
 	- Instruction
 	- Readme
 	- Project
 
 ### 1.2 Linux
-- Basic Commands
+- [Basic Commands](https://github.com/Mahgnislaw/BecodeProjects/tree/main/1_Becode%20Basics/1_2Linux/Basics%20Commands)
 	- 01.Finding_files
 	- 03.Text_manipulation
 	- 04.Piping_and_redirection
