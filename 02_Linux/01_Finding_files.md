@@ -65,7 +65,9 @@
 
 **How to:**
 - As usual `find / -type f`
-- to find modified file the option is `-mtime` who need a time (last 24h, last 7days, 30days,...). 0=24hours  so here to see file modified the last 24hours i use `-mtime 0` . **Good to know** can search for file modified more than x days just put `+` before the number. To search a file modified in the last x days just put a `-` before the number
+- to find modified file the option is `-mtime` who need a time (last 24h, last 7days, 30days,...). 0=24hours.
+So here i want to see file modified the last 24hours i use `-mtime 0` . 
+**Good to know** can search for file modified more than x days just put `+` before the number. To search a file modified in the last x days just put a `-` before the number
 - Don't want the files owned by the root so, for a not use `!` and then the option so to specify a user juste use `-user nameOfUser`
 - As in the exercice 5 we need to perform another task to find so i use `-exec` like before and add the second task `ls -l`
 - /!\ don't forget the `{} \;`
