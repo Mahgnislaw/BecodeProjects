@@ -17,8 +17,7 @@ _In this repository you can find all the projects done for the 7month  BeCode Cy
 
 ### 1.2 Linux
 - Basic Commands
-	- 01.Terminal_basics
-	- 02.Finding_files
+	- 01.Finding_files
 	- 03.Text_manipulation
 	- 04.Piping_and_redirection
 	- 05.Bash_environnement
