@@ -15,7 +15,7 @@ _In this repository you can find all the projects done for the 7month  BeCode Cy
 	- Readme
 	- Project
 
-### 2.1 Linux
+### 1.2 Linux
 - Basic Commands
 	- 01.Terminal_basics
 	- 02.Finding_files
