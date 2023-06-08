@@ -87,4 +87,4 @@
 - Change permission of file using `-chmod newPermission` 
 - /!\ dont forget `{} \;`
 
-    > Your command :  `find /home/student/findme/ -type f -perm 0777 -exec chmod 0755 {} \;`
+> Your command :  `find /home/student/findme/ -type f -perm 0777 -exec chmod 0755 {} \;`
