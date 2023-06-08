@@ -16,8 +16,17 @@ _In this repository you can find all the projects done for the 7month  BeCode Cy
 	- Project
 
 ### 2.1 Linux
-	- Basic Commands
-	- CTF 
-	- Privilege escalation
+- Basic Commands
+	- 01.Terminal_basics
+	- 02.Finding_files
+	- 03.Text_manipulation
+	- 04.Piping_and_redirection
+	- 05.Bash_environnement
+	- 06.Process
+	- 07.Protocols_and_servers
+	- Downloading_files
+- CTF 
+- Privilege escalation
+- Project_linuxServer
 
 	
