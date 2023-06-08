@@ -12,7 +12,7 @@
     
 ### 4. With the command `which`, find the executable file becode. What is the flag ?
     
- > Flag : BC{WH1CH_FL4G_EXECUTLE_FILE}
+> Flag : BC{WH1CH_FL4G_EXECUTLE_FILE}
     
 ### 5. Search with `find` command for a file that contains the name "Edgar Allan Poe". What is the flag ?
 
@@ -30,7 +30,7 @@
  **2° Read file**
 - Read the file and look for flag so here i make a `nano /var/www/index.html `
 
->Flag : BC{3d54r_4ll4n_P03_FL45}
+> Flag : BC{3d54r_4ll4n_P03_FL45}
 
 ### 6. Using the `find` command, find the file password.txt and specify the flag.
     
@@ -47,9 +47,10 @@
 `nano /var/www/html/a/b/c/d/e/g/h/i/j/k/l/m/n/o/p/q/r/s/t/u/v/w/x/y/z/password.txt`
 
 
-   > Flag : BC{PASSWORD_FILE}
+> Flag : BC{PASSWORD_FILE}
 
 ### 7. With the command `find`, find a file that starts with `becode-` and ends with `.sh`.
+
 **How to:**
 **1°Find the file**
 - As usual search on every directories for files
@@ -61,6 +62,7 @@
 
 
 ### 8. Using the `find` command to identify any file (not directory) modified in the last day, NOT owned by the root user and execute ls -l on them. **Chaining/piping commands is NOT allowed!**
+
 **How to:**
 - As usual `find / -type f`
 - to find modified file the option is `-mtime` who need a time (last 24h, last 7days, 30days,...). 0=24hours  so here to see file modified the last 24hours i use `-mtime 0` . **Good to know** can search for file modified more than x days just put `+` before the number. To search a file modified in the last x days just put a `-` before the number
@@ -68,11 +70,9 @@
 - As in the exercice 5 we need to perform another task to find so i use `-exec` like before and add the second task `ls -l`
 - /!\ don't forget the `{} \;`
 
-    > Your command : `find / -type f -mtime 0 ! -user root -exec ls -l {} \; 2>/dev/null`
+> Your command : `find / -type f -mtime 0 ! -user root -exec ls -l {} \; 2>/dev/null`
     
 ### 9. With the find command, find all the files that have an authorization of `0777`.
-    
-    > Your command : ``
 
 **How to:**
 - as usual `find / -type f`
