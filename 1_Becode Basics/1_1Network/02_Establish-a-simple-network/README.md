@@ -29,6 +29,7 @@ First of all  made a plan of the futur network, giving a subnet for each departm
 
 ### Configure the router
 **Main router**
+
 Set the correct ip on each port, those ip gonna be the DEFAULT GATEWAY for each subnet.
 
 | Subnet     | ports       | ip             |
