@@ -1,3 +1,16 @@
+# Gain ROOT privilege
+
+First time to try gaining acces to the root privilège of the device.
+
+##First attempt
+I start by trying common password using like root | root or admin | admin and i finaly found the password like that.
+In this case it was toor.
+
+So the escalation was possible because of poor security and human mistake.
+
+##Second attempt
+It was ok to guess the password, but i wanted to find an other way to gain root privilege. 
+So i start by doing a scan of the device with LinPEAS and after that just check the different CVE that was showed to me.
 
 1. [Run LinPeas](https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS) 
 2. Check for the RED/YELLOW  (not so much here)
