@@ -33,22 +33,27 @@ Link the 3 computer to the switch then the switch to the router and the router t
        PC    PC    PC
        
 ### Configuration
-1° The router
+**1° The router**
 - Give it an IP : 192.168.1.254/24 _That's gonna be the defaultgateway for the other devices_
 - Turn on the port used
 
-2° The PC
+**2° The PC**
 - For each one set an ip, in order to the instruction
 - Set the default gateway with the router IP
 
 ### Routing table
 
-| Device            | LAN IP Address   | Subnet Mask       |
-|-------------------|------------------|-------------------|
-| Router            | 192.168.1.254    | 255.255.255.0     |
-| PC-Robert         | 192.168.1.10     | 255.255.255.0     |
-| PC-Camille        | 192.168.1.11     | 255.255.255.0     |
-| PC-Renaud         | 192.168.1.12     | 255.255.255.0     |
+| Device            | LAN IP Address   | Subnet Mask       | port |
+|-------------------|------------------|-------------------|------|
+| Router            | 192.168.1.254    | 255.255.255.0     | LAN  |
+| PC-Robert         | 192.168.1.10     | 255.255.255.0     | Fa0  |
+| PC-Camille        | 192.168.1.11     | 255.255.255.0     | FaO  |
+| PC-Renaud         | 192.168.1.12     | 255.255.255.0     | Fa0  |
+
+## Outside
+Use a coaxial cable frome the modem to the cloud
+
+
 
 
 
