@@ -25,4 +25,4 @@ So i start by doing a scan of the device with LinPEAS and after that just check 
 		3. make a `whoami` to verify
 		4. it's done
 
-(https://camo.githubusercontent.com/6938b7b72057ec15b07e3e751d486ecfb812a6899a52957e8bdb944dd7cdceb3/68747470733a2f2f692e70696e696d672e636f6d2f373336782f62302f33332f38372f62303333383735353235376633343836386538383039313636623766313833362e6a7067)
+
