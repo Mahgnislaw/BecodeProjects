@@ -1,5 +1,6 @@
 ### 1. Search all sequences containing "Loxondota" in `/home/student/lorem.txt`
-    `grep "Loxondota" /home/student/lorem/txt`
+ 
+ > command :`grep "Loxondota" /home/student/lorem/txt`
  > Flag : BC{GREP_ME_LOREM_FL4G}
     
 ### 2. Copy the file /etc/passwd to your home directory. Display the line starting with `student` name.
