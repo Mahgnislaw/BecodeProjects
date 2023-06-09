@@ -65,6 +65,7 @@ Go to services , select DNS set it on add an URL name and it's IP addresses to t
 This URL gonna be _www.cisco.com_ for this exercice.
 
 **2) The DHCP : 192.168.100.2**
+
 Click on the server , set the default gateway. 
 Set ip address on the interface : 192.168.100.2
 
@@ -73,6 +74,7 @@ For the IP range i make them start at 10 so there is some free space on the netw
 When it's done go finish the setup of the router
 
 **3) The Storage server : FTP : 192.158.100.4**
+
 Click on the server , set the default gateway. 
 Set ip address on the interface : 192.168.100.4 (this gonna be the access address of our server)
 
@@ -80,6 +82,7 @@ Go to services, activate the FTP service then can set users and permission to ac
 To make the access easier than using ip adress add a record to our DNS server and set _server_ as url for the ftp server so access the server using his url or his ip.
 
 ### ASA5506
+
 I've try different things, but can't make it work. Maybe for later
 
 
