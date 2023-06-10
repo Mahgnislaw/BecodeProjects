@@ -39,6 +39,7 @@ This time i try an other way to gain acces to root, so i found the setuid can be
 ### First things to know 
 File Info :
 
+The info are displayed like that
 `PERMISSIONS HARDLINKS OWNERSuSER OWNERgROUP FILESIZE LASTmODIFYtIME FILEnAME`
 
 Permission for a file look like this : 
