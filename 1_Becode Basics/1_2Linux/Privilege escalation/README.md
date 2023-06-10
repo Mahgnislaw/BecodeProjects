@@ -5,8 +5,7 @@ First time to try gaining acces to the root privilège of the device.
 ## First attempt
 I start by trying common password using things like 
 > root | root  
-> or
-> 
+> or /
 > admin | admin
 
 And i found the password `toor`
