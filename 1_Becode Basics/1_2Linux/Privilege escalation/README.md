@@ -3,8 +3,10 @@
 First time to try gaining acces to the root privilège of the device.
 
 ## First attempt
-I start by trying common password using like root | root or admin | admin and i finaly found the password like that.
-In this case it was toor.
+I start by trying common password using things like 
+> root | root  
+> admin | admin
+And i found the password `toor`
 
 So the escalation was possible because of poor security and human mistake.
 
