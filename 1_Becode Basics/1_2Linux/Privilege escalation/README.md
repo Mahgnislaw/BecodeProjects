@@ -62,7 +62,7 @@ When a permission is set to setuid it means every users can run the file as the 
 
 ### How to :
 
-So first find the file with setuid set : `find / -perm 4000 -ls 2>/dev/null`
+So first find files with setuid set and with root user : `find / -perm 4000 -ls 2>/dev/null`
 	`- /4000` is the bitmask for the SetUID bit. 
 	
 can see the uid of current user with `id`
