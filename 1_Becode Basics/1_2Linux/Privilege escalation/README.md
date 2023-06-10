@@ -65,10 +65,8 @@ When a permission is set to setuid it means every users can run the file as the 
 So first find files with setuid set and with root user : `find / -perm 4000 -ls 2>/dev/null`
 >`- /4000` is the bitmask for the SetUID bit. 
 	
-can see the uid of current user with `id`
-can 
 
-then i search for SetUId permission on file who's allow me to launch others command or app like bash(or other shell), Python, Pearl, PhP, text editor. 
+then i search on this result for SetUId permission on file who's allow me to launch others command or app like bash(or other shell), Python, Pearl, PhP, text editor. 
 
 >For exemple if nano was SetUID set (it's not the case here).
 >Can open `/etc/passwd`  and `/etc/shadow`with `nano` and then modify his content. And add a user.
