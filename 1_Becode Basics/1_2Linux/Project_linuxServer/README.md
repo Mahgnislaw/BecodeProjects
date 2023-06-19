@@ -28,6 +28,8 @@
 	- Don't check the `Enable DHCP` because we gonna put a static IP and a DHCP on the server that gonna give an ip to te client
 - On both VM select `network` and set `nat network` and `project`
 
+[![](https://github.com/Mahgnislaw/BecodeProjects/blob/main/1_Becode%20Basics/1_2Linux/Project_linuxServer/img/vm1.png)
+
 ## Setup CLIENT device
 
 First of all update the device
