@@ -30,6 +30,8 @@
 
 [![](https://github.com/Mahgnislaw/BecodeProjects/blob/main/1_Becode%20Basics/1_2Linux/Project_linuxServer/img/vm1.png)
 
+[![](https://github.com/Mahgnislaw/BecodeProjects/blob/main/1_Becode%20Basics/1_2Linux/Project_linuxServer/img/vm2.png)
+
 ## Setup CLIENT device
 
 First of all update the device
@@ -55,6 +57,7 @@ First of all update the device
 - Select and install a software here i use _remmina_ `sudo apt install remmina`
 - open the software and create a new profile
 - Install the software to an other machine to connect to the client.
+[![](https://github.com/Mahgnislaw/BecodeProjects/blob/main/1_Becode%20Basics/1_2Linux/Project_linuxServer/img/remina.png)
 
 ## Setup SERVER device
 
@@ -82,9 +85,14 @@ First of all as root update the device and install sudo package
 		- `address 10.0.2.10`
 		- `netmask 255.255.255.0`
 		- `gateway 10.0.2.1`
+
+[![](https://github.com/Mahgnislaw/BecodeProjects/blob/main/1_Becode%20Basics/1_2Linux/Project_linuxServer/img/staticip1.png)
+
 - restart the network service `sudo systemctl restart networking.service`
 - check if you have the good ip with a `ip a`
 - you can also check if internet is available with a `ping google.com`
+
+[![](https://github.com/Mahgnislaw/BecodeProjects/blob/main/1_Becode%20Basics/1_2Linux/Project_linuxServer/img/staticip2.png)
 
 ### 3) Install a firewall
 
@@ -103,14 +111,19 @@ Using ufw
 - Go on client device and try ssh connection with the user admint. `ssh tristan@10.0.2.10` should work.
 - Then verify that root connection by ssh is not allowed. Make same command but with root user to verify.
 
+[![](https://github.com/Mahgnislaw/BecodeProjects/blob/main/1_Becode%20Basics/1_2Linux/Project_linuxServer/img/ssh.png)
+
 ### 5) GLPI, PHP, MariaDB and Apache
 
 Do it as ROOT user :
 
 - Easy script available on github just do `wget https://raw.githubusercontent.com/jr0w3/GLPI_install_script/main/glpi-install.sh && bash glpi-install.sh`
 - Follow instructions and take note off the credentials.
+[![](https://github.com/Mahgnislaw/BecodeProjects/blob/main/1_Becode%20Basics/1_2Linux/Project_linuxServer/img/glpi1.png)
+
 - Normaly now  with your client device you can go to a web browser and indicate the ip of the server and manage GLPI
 - **The script put basic credentials and password, can stay like that for the exercices, but in real life don't forget to change it**
+[![](https://github.com/Mahgnislaw/BecodeProjects/blob/main/1_Becode%20Basics/1_2Linux/Project_linuxServer/img/glpi2.png)
 
 ### 6) DNS
 
