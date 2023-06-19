@@ -146,7 +146,7 @@ I use this tutorial [Getting Started with the BIND DNS Server (adamtheautomator.
 	- put this script in it :
 > `sudo mount /dev/sdb /mnt/conf_backups/` -> Mounts a disk device (`/dev/sdb`) to the `/mnt/conf_backups/` directory
 > 
-   `sudo mkdir /tmp/$(date +%d-%b-%Y)` -> Creates a temporary directory with a name based on the current date:
+  > `sudo mkdir /tmp/$(date +%d-%b-%Y)` -> Creates a temporary directory with a name based on the current date:
    >
    >`sudo cp -r /etc/bind /etc/dhcp /etc/apache2 /etc/mysql /etc/php /etc/resolv.conf /tmp/$(date +%d-%b-%Y)/` -> Copies the following directories and files to the temporary directory
    >
