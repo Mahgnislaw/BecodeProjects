@@ -1,7 +1,7 @@
 # Linux Server
 
 - [Creates VM](#Creates_VM)
-	- [client]
+	- [client](# 1)
 	- [server]
 	- [virtualbox]
 
