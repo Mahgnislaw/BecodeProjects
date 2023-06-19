@@ -192,4 +192,6 @@ see here my setup
 >- `6`: Specifies the day of the week when the task should run (in this case, Saturday, where Saturday is represented by 6).
 >- `/root/scripts/conf_backup.sh`: Specifies the command or script that should be executed at the specified time.
    
+   
+   [![](https://i.kym-cdn.com/photos/images/original/002/121/957/e90.jpg)
 
