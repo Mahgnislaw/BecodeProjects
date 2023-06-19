@@ -1,3 +1,5 @@
+# Linux Server
+
 ## Creates VM
 
 
@@ -128,6 +130,14 @@ Do it as ROOT user :
 ### 6) DNS
 
 I use this tutorial [Getting Started with the BIND DNS Server (adamtheautomator.com)](https://adamtheautomator.com/bind-dns-server/)
+see here my setup
+[![](https://github.com/Mahgnislaw/BecodeProjects/blob/main/1_Becode%20Basics/1_2Linux/Project_linuxServer/img/dns1.png)
+
+[![](https://github.com/Mahgnislaw/BecodeProjects/blob/main/1_Becode%20Basics/1_2Linux/Project_linuxServer/img/dns2.png)
+
+[![](https://github.com/Mahgnislaw/BecodeProjects/blob/main/1_Becode%20Basics/1_2Linux/Project_linuxServer/img/dns3.png)
+
+[![](https://github.com/Mahgnislaw/BecodeProjects/blob/main/1_Becode%20Basics/1_2Linux/Project_linuxServer/img/dns4.png)
 
 ### 7) DHCP
 
@@ -139,6 +149,8 @@ I use this tutorial [Getting Started with the BIND DNS Server (adamtheautomator.
 
 - configure the DHCP by modify the file `sudo nano /etc/dhcp/dhcpd.conf`
 	- set the subnet, subnet mqsk, router and range like this.
+	[![](https://github.com/Mahgnislaw/BecodeProjects/blob/main/1_Becode%20Basics/1_2Linux/Project_linuxServer/img/dhcp.png)
+	
 - restart the service and the client device
 
 ### BACKUP
