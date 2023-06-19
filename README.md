@@ -24,6 +24,6 @@ _In this repository you can find all the projects done for the 7month  BeCode Cy
 	- 05.Protocols_and_servers
 	- 06.Downloading_files
 - [Privilege escalation](https://github.com/Mahgnislaw/BecodeProjects/tree/main/1_Becode%20Basics/1_2Linux/Privilege%20escalation)
-- Project_linuxServer
+- [Project_linuxServer](https://github.com/Mahgnislaw/BecodeProjects/tree/main/1_Becode%20Basics/1_2Linux/Project_linuxServer)
 - [Over The Wire - Bandit (request an access to see)](https://github.com/Mahgnislaw/BecodeProjects/tree/main/1_Becode%20Basics/1_2Linux/Bandit)
 	
