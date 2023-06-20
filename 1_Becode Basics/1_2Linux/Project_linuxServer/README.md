@@ -1,22 +1,6 @@
 # Linux Server
 
-- [Creates VM]
-	- [client]
-	- [server]
-	- [virtualbox]
 
-- [Client setup]
-	- [Basic Software]
-	- [Remote Access]
-
-- [Server setup]
-	- [New user]
-	- [Static IP]
-	- [Firewall]
-	- [GLPI & co]
-	- [DNS]
-	- [DHCP]
-	- [Backup]
 
 ## Creates VM
 
