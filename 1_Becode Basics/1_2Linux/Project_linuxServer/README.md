@@ -146,7 +146,7 @@ see here my setup
 
 ### 7) DHCP
 
-**Try a lot of things but can figure how to make my debian server to address the ubuntu device, it's still virtualbox who's giving it an IP**
+**IS WORKING MTFK**
 
 - Install ISC DHCP SERVER `sudo apt install isc-dhcp-server`
 - Say wich interface gonna be used. Modify `sudo nano /etc/default/isc-dhcp-server`
