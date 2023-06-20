@@ -170,7 +170,7 @@ see here my setup
 	- Select your new volume and click on "Choose".
 	- turn on the VM and make a `lsblk` to verify if the newfrive is here
 
--  format the new drive `sudo mkfs.ext4 /dev/sdb`
+-  Now format the new drive `sudo mkfs.ext4 /dev/sdb`
 -  create a backup folder `sudo mkdir /mnt/conf_backups`
 - Make a script to save files on the backup drive:
 	- Perform this as ROOT `su`
