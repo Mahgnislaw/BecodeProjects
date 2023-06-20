@@ -161,14 +161,14 @@ see here my setup
 ### BACKUP
 
 - first need to add a back up drive on the vm :
-	1. In VirtualBox, while your VM is selected, go to Settings.
-	2. Go to storage.
-	3. Click on the hard drive on "Controller:SATA".
-	4. Click Create
-	5. Leave VDI selected 
-	6. Allocate space
-	7. Select your new volume and click on "Choose".
-	8. turn on the VM and make a `lsblk` to verify if the newfrive is here
+	- In VirtualBox, select the device and go to Settings.
+	- Click on storage.
+	- Click on the hard drive on "Controller:SATA".
+	- Click Create
+	- Leave VDI selected 
+	- Allocate space
+	- Select your new volume and click on "Choose".
+	- turn on the VM and make a `lsblk` to verify if the newfrive is here
 
 -  format the new drive `sudo mkfs.ext4 /dev/sdb`
 -  create a backup folder `sudo mkdir /mnt/conf_backups`
