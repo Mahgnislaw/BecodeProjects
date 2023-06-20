@@ -56,7 +56,7 @@ First of all update the device
 
 2 options SSH and a remote desktop solution:
 
-**2.1 SSH **
+**2.1 SSH**
 - install openssh `sudo apt install openssh-server openssh-client`
 - enable ssh `sudo systemctl enable ssh`
 
