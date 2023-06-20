@@ -1,7 +1,7 @@
 # Linux Server
 
 
-![](https://tenor.com/fr/view/moss-it-crowd-fire-ignore-gif-11440653)
+![](https://media.tenor.com/46CnZ6Y_rlYAAAAd/moss-it-crowd.gif)
 
 
 
