@@ -1,6 +1,9 @@
 # Linux Server
 
 
+![](https://tenor.com/fr/view/moss-it-crowd-fire-ignore-gif-11440653)
+
+
 
 ## Creates VM
 
