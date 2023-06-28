@@ -30,6 +30,5 @@
 
 [![](https://github.com/Mahgnislaw/BecodeProjects/blob/main/2_The%20hill/Phishing/Mail%20Analysis/img/Mail2/hop.png)
 
-[![](https://github.com/Mahgnislaw/BecodeProjects/blob/main/2_The%20hill/Phishing/Mail%20Analysis/img/Mail2/mxtool.png)
 
 [![](https://github.com/Mahgnislaw/BecodeProjects/blob/main/2_The%20hill/Phishing/Mail%20Analysis/img/Mail2/virustotal.png)
