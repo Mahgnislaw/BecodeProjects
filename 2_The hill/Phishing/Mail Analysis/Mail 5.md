@@ -30,3 +30,11 @@
 > - The mail address
 > - The link to a cloud
 > - nothing good
+>
+>   [![](https://github.com/Mahgnislaw/BecodeProjects/blob/main/2_The%20hill/Phishing/Mail%20Analysis/img/Mail5/header.png)
+>
+> [![](https://github.com/Mahgnislaw/BecodeProjects/blob/main/2_The%20hill/Phishing/Mail%20Analysis/img/Mail5/mxtool.png)
+>
+> [![](https://github.com/Mahgnislaw/BecodeProjects/blob/main/2_The%20hill/Phishing/Mail%20Analysis/img/Mail5/phish.png)
+>
+> [![](https://github.com/Mahgnislaw/BecodeProjects/blob/main/2_The%20hill/Phishing/Mail%20Analysis/img/Mail5/virustotal.png)
