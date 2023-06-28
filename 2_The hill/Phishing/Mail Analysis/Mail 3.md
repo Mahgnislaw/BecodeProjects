@@ -26,3 +26,11 @@
 > - The button redirect to a malicious website
 > - The Domain don't seems safe
 > - The mail address is not a tinder mail
+
+[![](https://github.com/Mahgnislaw/BecodeProjects/blob/main/2_The%20hill/Phishing/Mail%20Analysis/img/Mail3/header.png)
+
+[![](https://github.com/Mahgnislaw/BecodeProjects/blob/main/2_The%20hill/Phishing/Mail%20Analysis/img/Mail3/mxtool.png)
+
+[![](https://github.com/Mahgnislaw/BecodeProjects/blob/main/2_The%20hill/Phishing/Mail%20Analysis/img/Mail3/virustotal.png)
+
+[![](https://github.com/Mahgnislaw/BecodeProjects/blob/main/2_The%20hill/Phishing/Mail%20Analysis/img/Mail3/virustotal2.png)
