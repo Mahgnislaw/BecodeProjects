@@ -2,4 +2,4 @@
 
 No password here but carrefull still **SPOIL**
 
-Juste describe the way i manage the challenge
+I Just describe the way i manage the challenge
