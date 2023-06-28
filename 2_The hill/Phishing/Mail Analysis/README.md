@@ -7,17 +7,22 @@ Team challenge : solo
 
 
 **Your Mission**
-As a SOC analyst, you have to analyze the 5 emails that your colleagues send you. You must determine which email appears to be phishing and write a report. Your report should include all your thoughts and print screens of all the tools you used
 
-Phishing Fundamentals
+_As a SOC analyst, you have to analyze the 5 emails that your colleagues send you. You must determine which email appears to be phishing and write a report. Your report should include all your thoughts and print screens of all the tools you used_
+
+**Phishing Fundamentals**
+
 First of all please do these two rooms of tryhackme :
 
 https://tryhackme.com/room/phishingemails1tryoe
 https://tryhackme.com/room/phishingemails2rytmuv
-Phishing Case
+
+
+**Phishing Case**
+
 Your colleagues have provided you with emails in .eml format, ".eml" files are individual email files stored in Multipurpose Internet Mail Extensions (MIME) format. To scan .eml emails, you can use tools such as email clients (Outlook, Thunderbird, etc.), email viewing applications, or specialized tools such as email scanners.
 
-Here are some general steps you can take to scan an .eml file:
+**_Here are some general steps you can take to scan an .eml file:_**
 
 Open the .eml file in an email client or email viewing application. You can also open the .eml file with a text editor to see the source code of the email.
 Check the email headers to identify the sender, recipient, date and subject information. You may also find additional information, such as the mail servers involved in the transmission of the message.
