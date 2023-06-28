@@ -33,5 +33,5 @@ _In this repository you can find all the projects done for the 7month  BeCode Cy
 ## 2. The Hill
 
 ### 2.1 Phishing
-	- [Mail analysis](https://github.com/Mahgnislaw/BecodeProjects/tree/main/2_The%20hill/Phishing/Mail%20Analysis) 
-   	- Phishing Campain
+- [Mail analysis](https://github.com/Mahgnislaw/BecodeProjects/tree/main/2_The%20hill/Phishing/Mail%20Analysis)
+- Phishing Campain
