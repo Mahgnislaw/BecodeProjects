@@ -27,4 +27,6 @@
 > - In the mail ask to respond to "Robert Taiwo"
 > - Phone index +229 is for Benin
 > - Sens of urgence, huge amount of money for free
-> - but why not it's like russian roulette 
+> - but why not it's like russian roulette
+>
+> [![](https://github.com/Mahgnislaw/BecodeProjects/blob/main/2_The%20hill/Phishing/Mail%20Analysis/img/Mail4/header.png)
