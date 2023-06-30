@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Best Dog</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="img/dogtrust.png" alt="doggo logo" />
+      <nav>
+        <ul id="navigation">
+          <li><a href="#Home">Kennel</a></li>
+          <li><a href="#BullNews">Bull news</a></li>
+          <li><a href="#Pictures">Pictures</a></li>
+          <li><a href="#BullDiscount">Bull Discounts</a></li>
+          <li><a href="#Guide">The ultimate guide</a></li>
+          <li><a href="#Contacts">Contacts</a></li>
+          <li><a href="#Log">Log in</a></li>
+        </ul>
+      </nav>
+    </header>
+  </div>
+
+  <div class="content-outer">
+    <div class="content-inner">
+      <main>
+        <form class="form">
+          <div class="title">Welcome</div>
+          <div class="subtitle">Let's create your account!</div>
+          <div class="input-container ic1">
+            <input id="firstname" class="input" type="text" placeholder=" " />
+            <div class="cut"></div>
+            <label for="firstname" class="placeholder">Pseudo</label>
+          </div>
+          <div class="input-container ic2">
+            <input id="Password" class="input" type="password" placeholder=" " />
+            <div class="cut"></div>
+            <label for="Password" class="placeholder">Password</label>
+          </div>
+          <div class="input-container ic2">
+            <input id="email" class="input" type="email" placeholder=" " />
+            <div class="cut cut-short"></div>
+            <label for="email" class="placeholder">Email</label>
+          </div>
+          <button type="submit" class="submit">Submit</button>
+        </form>
+
+        <div class="content-inner-text">
+          <h1>Competition: Bull without horn</h1>
+          <p>WIN one Year of free food</p>
+          <p>If you want a chance to win, just send lovely pictures of your dog and let people vote for the cutest one.</p>
+          <p>Just need to register yourself in order to participate.</p>
+        </div>
+
+        <div class="pic">
+          <div class="pictopbar">
+            <img src="img/bullasleep.jpg" style="width:100%">
+          </div>
+          <button class="vote-button">Vote for Marmelade</button>
+        </div>
+
+        <div class="pic">
+          <div class="pictopbar">
+            <img src="img/bull2.jpg" style="width:100%">
+          </div>
+          <button class="vote-button">Vote for Antoine</button>
+        </div>
+
+        <div class="pic">
+          <div class="pictopbar">
+            <img src="img/fake.jpg" style="width:100%">
+          </div>
+          <button class="vote-button">Vote for Pimkin</button>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <footer>
+    <small>Trusted website © 2023 BullWithoutHorn</small>
+  </footer>
+
+  <script>
+    window.addEventListener('DOMContentLoaded', function() {
+      var form = document.querySelector('.form');
+
+      form.addEventListener('submit', function(event) {
+        event.preventDefault();
+        alert('Form submitted successfully!');
+
+        var pseudo = document.getElementById('firstname').value;
+        var password = document.getElementById('Password').value;
+        var email = document.getElementById('email').value;
+
+        console.log('Pseudo:', pseudo);
+        console.log('Password:', password);
+        console.log('Email:', email);
+
+        form.reset();
+      });
+    });
+  </script>
+</body>
+</html>
