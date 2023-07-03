@@ -25,13 +25,14 @@
   <div class="content-outer">
     <div class="content-inner">
       <main>
+      <div class="contest-box">
         <form class="form">
           <div class="title">Welcome</div>
           <div class="subtitle">Let's create your account!</div>
           <div class="input-container ic1">
-            <input id="firstname" class="input" type="text" placeholder=" " />
+            <input id="pseudo" class="input" type="text" placeholder=" " />
             <div class="cut"></div>
-            <label for="firstname" class="placeholder">Pseudo</label>
+            <label for="pseudo" class="placeholder">Pseudo</label>
           </div>
           <div class="input-container ic2">
             <input id="Password" class="input" type="password" placeholder=" " />
@@ -47,11 +48,12 @@
         </form>
 
         <div class="content-inner-text">
-          <h1>Competition: Bull without horn</h1>
+          <h1>Competition:<br> Bull without horn</h1>
           <p>WIN one Year of free food</p>
           <p>If you want a chance to win, just send lovely pictures of your dog and let people vote for the cutest one.</p>
           <p>Just need to register yourself in order to participate.</p>
         </div>
+      </div>
 
         <div class="pic">
           <div class="pictopbar">
@@ -89,7 +91,7 @@
         event.preventDefault();
         alert('Form submitted successfully!');
 
-        var pseudo = document.getElementById('firstname').value;
+        var pseudo = document.getElementById('pseudo').value;
         var password = document.getElementById('Password').value;
         var email = document.getElementById('email').value;
 

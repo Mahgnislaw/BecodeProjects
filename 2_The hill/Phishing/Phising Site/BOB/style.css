@@ -69,7 +69,14 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
+
+.contest-box {
+  padding: 10px;
+}
+
 
 h1 {
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -80,9 +87,6 @@ h1 {
   margin: 0;
 }
 
-p {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
 
 main {
   background-color: white;
@@ -127,9 +131,20 @@ main {
   text-decoration: none;
 }
 
-.content-inner-text>h1 {
+.content-inner-text {
+ 
   text-align: center;
+  margin-top: 140px;
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
+  /*padding-left: 200px;*/
+}
 
+.content-inner-text > p {
+  text-align: left;
+}
+
+#p win {
+  text-align: center;
 }
 
 .form {
