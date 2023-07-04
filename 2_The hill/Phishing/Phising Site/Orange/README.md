@@ -35,6 +35,8 @@
 - remove this part from sso-form :
 >  action="https://sso.orange.be/auth/sm/login.fcc" data-soho-check="/e-services/userCheck/b2b" data-soho-target="https://e-services.business.orange.be/fr/espace-client-soho/?fromB2C=true">
 
+- On the bottom of the form put your script link
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **Normaly it should work localy**
