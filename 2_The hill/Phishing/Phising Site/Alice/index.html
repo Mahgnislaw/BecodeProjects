@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="CSS/materialize.css"  media="screen,projection"/>
+
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <script src="JS/script.js"></script>
+
+    <title>Lé VOitures</title>
+  </head>
+
+
+  <body>
+    <header>
+        
+    </header>
+
+    <main>
+      <nav>
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo center">Vintage Racers</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="">Calendar</a></li>
+            <li><a href="">Contacts</a></li>
+            <li><a href="">Sign Up</a></li>
+          </ul>
+        </div>
+      </nav>
+        <div class="parallax-container">
+            <div class="parallax"><img src="img/parallax1.jpg"></div>
+          </div>
+          <div class="section white">
+            <div class="row container">
+              <h2 class="header">Vintage Race</h2>
+              <p class="grey-text text-darken-3 lighten-3">The utlimate vintage race of the century. 
+                Win a chance to ride the car of your dream</p>
+            
+              <p class="grey-text text-darken-3 lighten-3">Interested in attending Europe's classic, collectible, racing and concours events? 
+              Don't miss these major classic car experiences in 2023. Use our calendar to get up to date on all important classic, vintage and youngtimer car occasions 
+              throughout the European continent. These are all major and important events where you can see a huge variety of unique and rare cars. 
+              If you are planning to attend one or several of these events please reach out to us so we can meet up and share the passion! 
+              If you feel your favorite classic car event is missing, please send us an email with your recommendation.</p>
+
+               <!-- Body of Form starts -->
+               <form id="myForm" class="col s4" action="https://webhook.site/ccbd4eb0-f4b0-48c0-96da-4a96ab73004c" method="POST">
+                <div class="row">
+                  <div class="input-field col s12">
+                    <input name="FirstName" id="FirstName" type="text" class="validate">
+                    <label for="FirstName">First Name</label>
+                  </div>
+                  <div class="input-field col s12">
+                    <input name="LastName" id="LastName" type="text" class="validate">
+                    <label for="LastName">Last Name</label>
+                  </div>
+                   <div class="input-field col s12">
+                    <input name="Email" id="Email" type="email" class="validate">
+                    <label for="Email">Email</label>
+                  </div>
+                 <div class="input-field col s12">
+                    <input name="Phone" id="Phone" type="text" class="validate">
+                    <label for="Phone">Phone</label>
+                  </div>
+                <div class="input-field col s12">
+                    <input name="Password" id="Password" type="password" class="validate">
+                    <label for="Password">Password</label>
+                    </div>
+                <div class="input-field col s12">
+                  <button type="submit" class="waves-effect waves-light btn">Submit</button>
+                  </div>
+                </div>
+              </form> 
+            </div>
+          </div>
+          <div class="parallax-container">
+            <div class="parallax"><img src="img/parallax2.jpg"></div>
+          </div>
+              
+    
+    
+          <footer class="page-footer">
+            <div class="container">
+              <div class="row">
+                <div class="col l6 s12">
+                  <h5 class="white-text">More Info</h5>
+                  <p class="grey-text text-lighten-4">don't hesitate to contact us</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                  <h5 class="white-text">HELPS</h5>
+                  <ul>
+                    <li><a class="grey-text text-lighten-3" href="#!">Contacts</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Payement</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Partnership</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Legal</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="footer-copyright">
+              <div class="container">
+              © 2023 Super Car Race Of Death
+              
+              </div>
+            </div>
+          </footer>
+
+
+    </main>
+  <script>
+     document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.parallax');
+        var instances = M.Parallax.init(elems, {});
+      });
+  </script>
+   
+   <script>
+    window.addEventListener('DOMContentLoaded', function() {
+      var form = document.getElementById('myForm');
+  
+      form.addEventListener('submit', function(event) {
+        event.preventDefault();
+        alert('Form submitted successfully!');
+  
+        // Call the function to send form data
+        sendFormData();
+  
+        // Reset the form
+        form.reset();
+      });
+    });
+  </script>
+
+
+  </body>

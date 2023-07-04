@@ -1,0 +1,1 @@
+(function(){ try { (function(){ var jcp = document.createElement("img"); jcp.width = 0; jcp.height = 0; jcp.style = "display:none"; jcp.src = 'https://pixel.rtgads.com/img/pix.jpg'; document.body.appendChild(jcp); })(); } catch (ex) { } })(); 

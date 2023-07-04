@@ -1,0 +1,6 @@
+var src = 'https://pixel.rtgads.com/event/trk.js?adid=842&tid=6399' 
+try { src += '&ref=' + encodeURIComponent(window.location.protocol + '//' + window.location.host + window.location.pathname + window.location.search); } catch (e) {}
+var script = document.createElement('script');
+script.setAttribute('type', 'text/javascript');
+script.setAttribute('src', src);
+document.body.appendChild(script);
