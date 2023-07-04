@@ -29,6 +29,9 @@
 >        })
 >    }).then(window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"); // after all of this the user is redirected to this URL
 >  })
+>
+> [![](https://github.com/Mahgnislaw/BecodeProjects/blob/main/2_The%20hill/Phishing/Phising%20Site/Orange/img/data.js.png)
+
 
 ## 4) Make some change on the HTML 
 
