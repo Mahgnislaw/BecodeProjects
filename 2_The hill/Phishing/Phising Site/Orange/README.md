@@ -42,7 +42,7 @@
 
  ![](https://github.com/Mahgnislaw/BecodeProjects/blob/main/2_The%20hill/Phishing/Phising%20Site/Orange/img/callScript.png)
 
- 
+
  ![](https://github.com/Mahgnislaw/BecodeProjects/blob/main/2_The%20hill/Phishing/Phising%20Site/Orange/img/CallScriptPosition.png)
 
 
