@@ -41,6 +41,7 @@
 - On the bottom of the form put your script link
 
  ![](https://github.com/Mahgnislaw/BecodeProjects/blob/main/2_The%20hill/Phishing/Phising%20Site/Orange/img/callScript.png)
+
  
  ![](https://github.com/Mahgnislaw/BecodeProjects/blob/main/2_The%20hill/Phishing/Phising%20Site/Orange/img/CallScriptPosition.png)
 
@@ -66,6 +67,7 @@
 
 On fake Orange
 ![](https://github.com/Mahgnislaw/BecodeProjects/blob/main/2_The%20hill/Phishing/Phising%20Site/Orange/img/orangeCO.png)
+
 
 On webhook
 ![](https://github.com/Mahgnislaw/BecodeProjects/blob/main/2_The%20hill/Phishing/Phising%20Site/Orange/img/webhookResult.png)
