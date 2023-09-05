@@ -9,6 +9,8 @@ I start by trying common password using things like
 > or 
 > 
 > admin | admin
+>
+> FLAG : BC{y0ur_f1r57_r007_fl46#_w3ll_d0n3}
 
 And i found the password `toor`
 
